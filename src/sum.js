@@ -3,10 +3,10 @@ const readlineSync = require("readline-Sync");
 let sum = 0;
 let x = 0;
 
-console.log("");
+console.log(""); //maybe add /n
 
-const lowBound = Number(readlineSync.question("Lower bound: "));
-const upperBound = Number(readlineSync.question("Upper bound: "));
+let lowBound = Number(readlineSync.question("Lower bound: "));
+let upperBound = Number(readlineSync.question("Upper bound: "));
 
 do{
   lowBound = Number(readlineSync.question("Lower bound: "));
