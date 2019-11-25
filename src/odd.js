@@ -17,4 +17,4 @@ while (positive > 0.1) {
   }
   positive = Math.floor(positive / 10);
 }
-console.log("\n" + sum + ".");
+console.log("\n" + sum + "." + "\n");

@@ -5,9 +5,6 @@ let x = 0;
 
 console.log(""); //maybe add /n
 
-let lowBound = Number(readlineSync.question("Lower bound: "));
-let upperBound = Number(readlineSync.question("Upper bound: "));
-
 do{
   lowBound = Number(readlineSync.question("Lower bound: "));
   upperBound = Number(readlineSync.question("Upper bound: "));
@@ -26,4 +23,4 @@ if (lowBound % 2 !== 0){
   }
 }
 sum = sum.toLocaleString("en");
-console.log("\n" + sum + ".");
+console.log("\n" + sum + "." + "\n");

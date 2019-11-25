@@ -21,4 +21,4 @@ while (positive > 0.1) {
     reverse = reverse + number + ".\n";
   }
 }
-console.log("\n" + reverse);
+console.log("\n" + reverse + "\n");
